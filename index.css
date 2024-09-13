@@ -1,0 +1,544 @@
+.cabecalho__container {
+  background: var(--preto);
+  width: 100%;
+  padding: 40px 0;
+}
+
+.cabecalho {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cabecalho__logo--icone {
+  max-width: 260px;
+}
+
+.cabecalho__navegacao {
+  display: flex;
+  gap: 40px;
+}
+
+.cabecalho__navegacao--item {
+  color: var(--branco);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.banner__img {
+  max-width: 100%;
+  height: auto;
+  /* Outros estilos */
+}
+
+.banner__descricao {
+  max-width: 1200px;
+  color: var(--grafite, #222);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 110px auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ofertas {
+  margin-bottom: 112px;
+}
+
+.depoimentos__titulo,
+.pagamento__titulo,
+.destinos__titulo,
+.busca__titulo,
+.ofertas__titulo {
+  color: var(--grafite);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.depoimentos__titulo--sublinhado,
+.pagamento__titulo--sublinhado,
+.destinos__titulo--sublinhado,
+.busca__titulo--sublinhado,
+.ofertas__titulo--sublinhado {
+  width: 180px;
+  height: 4px;
+  background: var(--vermelho);
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ofertas__cards--grupo {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ofertas__cards--item {
+  display: flex;
+  padding: 24px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 24px 32px;
+  color: var(--branco);
+  flex: 1 0 calc(50% - 48px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.ofertas__cards--japao {
+  background-image: url('./img/tokyo.png');
+}
+
+.ofertas__cards--san-andreas {
+  background-image: url('./img/san-andreas.png');
+}
+
+.ofertas__cards--paraiba {
+  background-image: url('./img/paraiba.png');
+}
+
+.ofertas__cards--manaus {
+  background-image: url('./img/manaus.png');
+}
+
+.ofertas__card--destino-tipo {
+  color: var(--branco, #fff);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.ofertas__card--destino-nome {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ofertas__card--preco {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.destinos__item--botao,
+.ofertas__card--botao {
+  border-radius: 8px;
+  background: var(--vermelho, #b81515);
+  padding: 16px 48px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.destinos__item--botao-texto,
+.ofertas__card--botao-texto {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--branco, #fff);
+}
+
+.busca__categorias {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  margin-bottom: 112px;
+}
+
+.busca__categoria {
+  color: var(--grafite, #222);
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: var(--cinza-claro, #f5f5f5);
+  padding: 24px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span.material-symbols-outlined {
+  color: var(--cinza-escuro, #8c8c8c);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.destinos__lista {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  margin-bottom: 112px;
+}
+
+.destinos__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.destinos__item--image {
+  max-width: 100%;
+}
+
+.destinos__item--nome {
+  color: var(--grafite, #222);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 24px 0;
+}
+
+.destinos__item--descricao {
+  color: var(--grafite, #222);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.pagamento {
+  margin-bottom: 112px;
+}
+
+.pagamento__imagens--grupo,
+.pagamento__condicoes {
+  display: flex;
+  gap: 24px;
+}
+
+.pagamento__condicoes--destaque {
+  color: var(--grafite, #222);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.pagamento__condicoes--detalhes {
+  color: var(--grafite, #222);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 384px;
+  max-width: 100%;
+}
+
+.pagamento__imagens--imagem-container {
+  flex: 1;
+}
+
+.pagamento__imagens--imagem-destaque {
+  margin-top: 20px;
+}
+
+.pagamento__imagens--imagem {
+  max-width: 100%;
+}
+
+.depoimentos {
+  margin-bottom: 112px;
+}
+
+.depoimentos__wrapper {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.depoimentos__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.depoimentos__texto {
+  color: var(--grafite, #222);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.depoimentos__autor {
+  margin-top: 12px;
+  display: flex;
+  gap: 24px;
+}
+
+.depoimentos__autor--foto {
+  max-width: 86px;
+}
+
+.depoimentos__autor--nome {
+  color: var(--grafite, #222);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.footer__container {
+  background: var(--preto);
+  width: 100%;
+  padding: 40px 0;
+  margin-top: -4px;
+}
+
+.footer {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: var(--branco, #fff);
+}
+
+.footer__logo-icon {
+  max-width: 160px;
+  margin-bottom: 16px;
+}
+
+.footer__info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__text-info {
+  color: var(--neutral-c, #f5f5f5);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.footer__social-media-container {
+  text-align: center;
+}
+
+.footer__social-media-text {
+  color: var(--neutral-c, #f5f5f5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.conteudo__container {
+  width: 1200px;
+  margin-left: 350px;
+  color: var(--grafite);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.conteudo__container__bloco {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.conteudo__container__titulo {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.01px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.texto {
+  margin-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.imagem {
+  width: 450px; /* Define a largura da imagem */
+}
+
+.conteudo__container__bloco_acomodacao {
+  display: flex;
+  flex-direction: column; /* Coloca os itens na vertical */
+  align-items: center; /* Alinha os itens horizontalmente ao centro */
+  /* Ajusta o container para ocupar a altura total da janela */
+  justify-content: center;
+}
+
+.linha_separadora {
+  border: none; /* Remove a borda padrão */
+  height: 2px; /* Define a espessura da linha */
+  width: 10%;
+  background-color: ##ff0000; /* Cor da linha */
+  margin: 10px 0; /* Espaço acima e abaixo da linha */
+}
+
+.cabecalho__navegacao--item--active {
+  color: var(--branco);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: underline;
+  text-decoration-color: #ff0000;
+  text-decoration-thickness: 2px;
+}
+
+.posts,
+.destinos__cidades {
+  display: flex; /* Alinha os itens na horizontal */
+  justify-content: space-around; /* Distribui os itens horizontalmente com espaçamento */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  height: 100vh; /* Altura total da tela (opcional) */
+  margin-bottom: 70px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column; /* Coloca os itens na vertical */
+  align-items: center; /* Alinha os itens horizontalmente ao centro */
+  /* Ajusta o container para ocupar a altura total da janela */
+  justify-content: center;
+  padding: 20px;
+}
+
+.post__imagem {
+  width: 384px;
+  height: 300px;
+}
+
+.post__button {
+  background-color: #b81515;
+  color: #f5f5f5;
+  width: 280px;
+  height: 64px;
+}
+
+.container__pacotes {
+  max-width: 1920px;
+  max-height: 873px;
+  margin: 0 auto;
+}
+
+.destinos__cidades__cidade__imagem {
+  width: 588px;
+  height: 452px;
+}
+
+.destinos__cidades__cidade {
+  width: 588px;
+  height: 750px;
+}
+
+.destinos {
+  width: 1200px;
+  height: 873px;
+  margin-bottom: 100px;
+}
+
+.destinos__cidades {
+  display: flex;
+  align-items: center;
+}
+
+.banner__img__jp {
+  width: 19220px;
+  height: 620px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.form-group label {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 0 5px;
+  color: #333;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #bb1515;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
