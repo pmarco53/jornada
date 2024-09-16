@@ -35,6 +35,11 @@
   /* Outros estilos */
 }
 
+.banner__blog {
+  width: 100%;
+  height: auto;
+}
+
 .banner__descricao {
   max-width: 1200px;
   color: var(--grafite, #222);
@@ -79,10 +84,6 @@
   background: var(--vermelho);
   margin: 0 auto;
   margin-top: 16px;
-}
-
-img {
-  max-width: 100%;
 }
 
 .ofertas__cards--grupo {
@@ -326,7 +327,7 @@ span.material-symbols-outlined {
   background: var(--preto);
   width: 100%;
   padding: 40px 0;
-  margin-top: -4px;
+  margin-top: 30px;
 }
 
 .footer {
@@ -371,7 +372,7 @@ span.material-symbols-outlined {
 }
 .conteudo__container {
   width: 1200px;
-  margin-left: 350px;
+  margin: 0 auto;
   color: var(--grafite);
   font-size: 20px;
   font-weight: 400;
@@ -388,7 +389,7 @@ span.material-symbols-outlined {
   font-size: 32px;
   line-height: 39.01px;
   text-align: center;
-  margin-bottom: 10px;
+  padding: 30px;
 }
 
 .texto {
@@ -541,4 +542,30 @@ button {
 
 button:hover {
   background-color: #218838;
+}
+
+.introducao__container {
+  max-width: 100%;
+}
+
+.cidades__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pacotes__banner__img {
+  width: 100%;
+}
+
+.pre-footer__image__pacotes {
+  width: 100%;
+}
+
+.banner__img__contato {
+  width: 100%;
+}
+
+.pre-footer__image__contato {
+  width: 100%;
 }
